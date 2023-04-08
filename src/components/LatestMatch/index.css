@@ -1,0 +1,161 @@
+/* Write your CSS here */
+.latest-container {
+  margin-top: 24px;
+}
+
+.latest-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  display: block;
+}
+
+.sub-latest-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-latest-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container {
+    width: 65%;
+    padding-left: 32px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .logo-container {
+    width: 60%;
+  }
+}
+
+.logo-container-1 {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container-1 {
+    width: 48%;
+    align-self: flex-start;
+  }
+}
+
+.para1 {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .para1 {
+    font-size: 36px;
+  }
+}
+
+.para2 {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .para2 {
+    font-size: 24px;
+  }
+}
+
+.para3 {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .para3 {
+    font-size: 16px;
+  }
+}
+
+.team-image {
+  max-height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-image {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+.separator {
+  border: 1px solid #475569;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.match-details-2 {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-details-2 {
+    text-align: right;
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 32px;
+  }
+}
+
+.label {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 18px;
+  }
+}
+
+.para4 {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .para4 {
+    font-size: 14px;
+  }
+}

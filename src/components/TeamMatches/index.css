@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.team-matches-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.rcb {
+  background-image: linear-gradient(to top, #1e293d, #a4261d);
+}
+.kkr {
+  background-image: linear-gradient(to top, #1e293d, #5755a7);
+}
+.kxp {
+  background-image: linear-gradient(to top, #1e293d, #d91c1f);
+}
+.csk {
+  background-image: linear-gradient(to top, #1e293d, #f7db00);
+}
+.rr {
+  background-image: linear-gradient(to top, #1e293d, #da237b);
+}
+.mi {
+  background-image: linear-gradient(to top, #1e293d, #13418b);
+}
+.srh {
+  background-image: linear-gradient(to top, #1e293d, #f26d22);
+}
+.dc {
+  background-image: linear-gradient(to top, #1e293d, #4f5db0);
+}
+.responsive-container {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    margin-top: 96px;
+    max-width: 1110px;
+  }
+}
+
+.team-banner {
+  width: 100%;
+}
+
+.recent-matches-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-matches-list {
+    margin-top: 32px;
+  }
+}

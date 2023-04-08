@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.li {
+  background-color: #475569;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  font-family: 'Bree Serif';
+  margin: 10px;
+}
+.team-image {
+  width: 50px;
+  height: 50px;
+}
+.para1 {
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.lower-li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
